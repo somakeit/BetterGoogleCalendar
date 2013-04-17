@@ -1,4 +1,4 @@
-GogleCalendar
+BetterGoogleCalendar
 ====================
 
 This is a more flexible Google Calendar embedding Extension for Meadiawiki.
