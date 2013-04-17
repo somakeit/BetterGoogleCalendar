@@ -22,4 +22,5 @@ Installation
 Clone this repo into /var/www/extensions/BetterGoogleCalendar/ or wherever yours is.
 
 Add this to your LocalSettings.php:
+
     require_once( "$IP/extensions/BetterGoogleCalendar/BetterGoogleCalendar.php" );
