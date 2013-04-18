@@ -7,8 +7,8 @@ $wgHooks['ParserFirstCallInit'][] = 'efBetterGoogleCalendarSetup';
 $wgExtensionCredits['validateextensionclass'][] = array(
   'path'        => __FILE__,
   'name'        => 'BetterGoogleCalendar',
-  'author'      => 'Bracken Dawson',
-  'url'         => 'http://github.com',
+  'author'      => array('Bracken Dawson','Benjie Gillam'),
+  'url'         => 'https://github.com/so-make-it/BetterGoogleCalendar',
   'description' => 'Allows configurable embedding of Google calendars.',
   'version'     => '0.1.0');
 
