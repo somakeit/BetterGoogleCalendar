@@ -11,8 +11,8 @@ class BetterGoogleCalendar {
      were given:
        =c3at705hnnkj664j2gesvsnvh8%40group.calendar.google.com&
     */
-    if ( preg_match( '/[0-9a-z]+\%40[.0-9a-z]+/', $input, $matches ) ) {
-      $calendar = $matches[0];
+    if ( preg_match( '/[0-9a-z]+(?:\%40|@)[.0-9a-z]+/', $input, $matches ) ) {
+      $calendar = str_replace("@", "%40", $matches[0]);
     } else {
       return "<p>Sorry, that doesnt look like a calendar to me.</p>";
     }
